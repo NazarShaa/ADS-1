@@ -13,7 +13,8 @@ bool checkPrime(uint64_t value) {
         d++;
     }
     return true;
-  } else
+  } 
+  else
     return false;
 }
 
