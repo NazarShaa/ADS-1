@@ -50,4 +50,5 @@ uint64_t sumPrime(uint64_t hbound) {
 		if (checkPrime(i))
 			sum += i;
 	}
-	
+	return sum;
+}
